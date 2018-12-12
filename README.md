@@ -13,7 +13,7 @@ Using socket.io to create a twitter like chat app but with much fewer features.
 * Run `nodemon` to fire up the server on port 3000. To finish getting the app up and running follow the directions found in the README here: [GitHub front-end repo](https://github.com/EmeryP/yakker-client).
 
 #### UML
-[UML]()
+[Socket.io Server UML](/assets/socketio-server.jpg)
 
 ### Author: 
 Emery Parks
