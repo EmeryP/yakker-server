@@ -9,6 +9,7 @@ io.on('connection', socket => {
   socket.on('troll', (payload) => {
     console.log('broadcast', payload);
     socket.broadcast.emit('incoming', payload);
+    socket.emit('outgoing', payload);
   });
 
 });
